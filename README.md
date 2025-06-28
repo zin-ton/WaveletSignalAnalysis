@@ -21,7 +21,7 @@ Install dependencies via NuGet Package Manager: Install-Package ScottPlot.WinFor
 
 ## Usage
 
-1. Clone the repository: git clone https://github.com/yourusername/your-repo.git
+1. Clone the repository: git clone https://github.com/zin-ton/WaveletSignalAnalysis.git
 2. Open the project in Visual Studio or Rider.
 3. Build and run the application.
 4. Click **Load CSV** and select a signal file.
