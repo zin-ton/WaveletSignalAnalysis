@@ -1,5 +1,5 @@
 using System.Globalization;
-
+using ScottPlot;
 namespace WinFormsApp1;
 
 public partial class Form1 : Form
@@ -145,13 +145,44 @@ public partial class Form1 : Form
         var selected = sig.Skip(start).Take(length).ToArray();
 
         formsPlot1.Plot.Clear();
-        formsPlot1.Plot.Add.Signal(selected, sampleRate);
+
+        if (selected.Length == 0)
+        {
+            formsPlot1.Refresh();
+            return;
+        }
+
+        formsPlot1.Plot.Add.Scatter(
+            xs: Enumerable.Range(0, selected.Length).Select(i => i / sampleRate).ToArray(),
+            ys: selected
+        );
+
+        double min = selected.Min();
+        double max = selected.Max();
+        double range = max - min;
+        double padding = range * 0.1;
+
+        if (range == 0)
+        {
+            padding = Math.Abs(min) * 0.1 + 1e-6;
+        }
+        else if (padding < 1e-6)
+        {
+            padding = 1e-6; 
+        }
+        double minX = selected.Min();
+        double maxX = selected.Max();
+        formsPlot1.Plot.Axes.Left.Min = min - padding;
+        formsPlot1.Plot.Axes.Left.Max = max + padding;
+    
         formsPlot1.Plot.Title("Oscylogram");
         formsPlot1.Refresh();
     }
 
-   private void btnAnalyze_Click(object sender, EventArgs e)
-{
+
+
+    private void btnAnalyze_Click(object sender, EventArgs e)
+    {
     int start = (int)nudStart.Value;
     int length = (int)nudLength.Value;
     var sig = cmbChannel.SelectedIndex == 0 ? signalCh1 : signalCh2;

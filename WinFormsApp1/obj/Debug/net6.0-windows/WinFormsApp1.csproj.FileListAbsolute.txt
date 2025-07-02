@@ -39,7 +39,6 @@ C:\Users\zhili\RiderProjects\WinFormsApp1\WinFormsApp1\obj\Debug\net6.0-windows\
 C:\Users\zhili\RiderProjects\WinFormsApp1\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.AssemblyInfoInputs.cache
 C:\Users\zhili\RiderProjects\WinFormsApp1\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.AssemblyInfo.cs
 C:\Users\zhili\RiderProjects\WinFormsApp1\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.csproj.CoreCompileInputs.cache
-C:\Users\zhili\RiderProjects\WinFormsApp1\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.csproj.CopyComplete
 C:\Users\zhili\RiderProjects\WinFormsApp1\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.dll
 C:\Users\zhili\RiderProjects\WinFormsApp1\WinFormsApp1\obj\Debug\net6.0-windows\refint\WinFormsApp1.dll
 C:\Users\zhili\RiderProjects\WinFormsApp1\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.pdb
@@ -96,3 +95,5 @@ E:\C#\WinFormsApp1\WinFormsApp1\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsAp
 E:\C#\WinFormsApp1\WinFormsApp1\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.csproj.GenerateResource.cache
 C:\Users\zhili\RiderProjects\WinFormsApp1\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Form1.resources
 C:\Users\zhili\RiderProjects\WinFormsApp1\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.csproj.GenerateResource.cache
+C:\Users\zhili\RiderProjects\WinFormsApp1\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.sourcelink.json
+C:\Users\zhili\RiderProjects\WinFormsApp1\WinFormsApp1\obj\Debug\net6.0-windows\WinForms.E4050A35.Up2Date
